@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  color: white;
+}
+
+/* Top banner */
+.footer-top {
+  background: #3f66d1;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+}
+
+/* Main section */
+.footer-main {
+  display: flex;
+  background: #2a3bbf;
+}
+
+/* App section */
+.footer-app {
+  width: 30%;
+  background: #12245a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.etsy-logo {
+  background: #f1641e;
+  padding: 20px 25px;
+  font-size: 32px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.app-btn {
+  background: #2a3bbf;
+  border: none;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Links section */
+.footer-links {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px;
+  gap: 30px;
+}
+
+.footer-links h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social span {
+  font-size: 22px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  background: #222;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}

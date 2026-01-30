@@ -1,7 +1,7 @@
 // Form submission
 const form = document.getElementById('loginForm');
 form.addEventListener('submit', function(e) {
-  e.preventDefault(); // Prevent actual form submission
+  e.preventDefault(); 
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
   const staySignedIn = document.getElementById('staySignedIn').checked;
@@ -25,7 +25,7 @@ document.getElementById('facebookBtn').addEventListener('click', function() {
 });
 
 
-//for pillow//
+/* //for pillow//
  document.addEventListener("DOMContentLoaded", () => {
     const addToCartBtn = document.getElementById("addToCart");
     const sizeSelect = document.getElementById("sizeSelect");
@@ -36,9 +36,9 @@ document.getElementById('facebookBtn').addEventListener('click', function() {
       if (selectedSize === "select an option") {
         alert("Please select a size!");
         return;
-      }
+      } */
 
-      // Product info
+   /*    // Product info
       const product = {
         name: "Handmade Corduroy Pillow",
         price: 18.30,
@@ -56,7 +56,7 @@ document.getElementById('facebookBtn').addEventListener('click', function() {
 
       alert(`Added to cart: ${product.name} (${product.size})`);
     });
-  });
+  }); */
 
 
 function searchPage() {
